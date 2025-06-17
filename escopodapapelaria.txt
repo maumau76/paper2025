@@ -1,0 +1,63 @@
+Sistema de Gestão para Papelaria Personalizada - MauArt
+1. Módulos do Sistema
+1.1. Cadastro de Materiais (Insumos)
+- Nome do material
+- Unidade de medida (unidade, metro, grama, etc.)
+- Preço de compra
+- Quantidade em estoque
+- Fornecedor (opcional)
+1.2. Cadastro de Produtos Personalizados
+- Nome do produto (ex: Caderno A5 com Wire-o)
+- Descrição
+- Insumos utilizados (com quantidade por unidade de produto)
+- Custo total calculado automaticamente
+- Margem de lucro (%)
+- Preço final sugerido (calculado)
+- Categoria (ex: cadernos, planners, brindes)
+1.3. Controle de Estoque
+- Atualização automática ao:
+- Produzir um produto (consome insumos)
+- Comprar novos insumos
+- Alertas de estoque baixo
+- Histórico de movimentações
+1.4. Produção
+- Registrar produção de produtos personalizados
+- Dedução automática de insumos
+- Geração de custo por lote produzido
+- Armazenamento de produtos finalizados em estoque
+1.5. Vendas
+- Registro de venda (cliente, data, produto, quantidade)
+- Baixa no estoque do produto vendido
+- Registro de valor recebido (dinheiro, Pix, cartão)
+- Relatório de vendas por período
+1.6. Financeiro / Fluxo de Caixa
+- Entradas: vendas registradas
+- Saídas: compra de materiais e outras despesas
+- Saldo automático
+- Gráficos e relatórios mensais
+1.7. Dashboard Inicial (Resumo)
+- Produtos mais vendidos
+- Insumos em falta
+- Saldo atual
+- Vendas do mês
+- Produções recentes
+
+2. Infraestrutura Sugerida
+
+- Frontend (interface): React.js (hospedado no Vercel ou Netlify – grátis)
+- Backend (dados e lógica): Firebase (Firestore) ou Supabase
+- Login: autenticação com e-mail/senha via Firebase
+- Design Responsivo: para desktop e celular
+3. Extras Sugeridos
+- Upload de imagem dos produtos
+- Exportação de relatórios em PDF
+- Multiusuário (caso tenha ajudante futuramente)
+
+4. Etapas para Execução
+1. Documentar requisitos (este escopo já cobre)
+2. Contratar desenvolvedor (freelancer ou parceiro local)
+3. Criar contas nas plataformas (Firebase + Vercel/Netlify)
+4. Design visual e testes
+5. Implantação e treinamento
+
+
